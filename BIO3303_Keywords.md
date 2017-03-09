@@ -1,59 +1,58 @@
 # BIO 3303 Keywords
 
 ## Lecture 1
-Physiology: The study of the function of organisms as integrated systems of molecules, cells, tissues, and organs in normal and diseased states; how organisms work
-Comparative Physiology: The study of functional diversity among animals; understanding how and why different species work differently
-Aristotle: Father of Natural History
-Hippocrates: Father of medicine
-Galen: Founder of physiology; first to design experiments understanding how the body works
-Vesalius: Wrote first modern anatomy textbook; demonstrated Galen’s errors; triggered modern study of anatomy/physiology
-Scholander: first and most influential comparative physiologist
-Schmidt-Nielsen: how animals live in extreme environments
-George Bartholomew: founder of the field of ecological physiology
-Phenotype: physical characteristic of an organism
-Genotype: the specific genetic makeup of an organism
-Phenotypic plasticity: production of different phenotypes by a single genotype as a result of environmental changes
-Acclimatization: process of physiological change in response to naturally changing environmental conditions (reversible)
-Acclimation: process of physiological change in response to a controlled or manipulated environmental variable (under laboratory conditions) (reversible)
-Polyphenism (developmental plasticity): development under different conditions results in different adult phenotypes. E.g. Water fleas (Daphnia) (irreversible)
-Reaction norm: the range of phenotypes that can be produced by a given genotype when it is exposed to different environments
-Adaptation: change in the genetic structure of a population as a result of natural selection
-Conformers: allow internal conditions to change with variation in external conditions
-Regulators: maintain constant internal conditions regardless of the external conditions (e.g. homeostasis)
-Negative feedback loops: maintain parameters within optimal physiological range (homeostasis)
-Homeostasis: maintenance of a constant internal state (e.g. body T⁰ in mammals = 37⁰C); the animal maintains internal body conditions despite a changing external environment
-Enantiostasis: maintenance of function when physiological variables are changing (e.g. membrane fluidity at different temperatures); in a new environment, the animal’s internal conditions change but physiological function is maintained through alternate action
+* **Physiology**: The study of the function of organisms as integrated systems of molecules, cells, tissues, and organs in normal and diseased states; how organisms work
+* **Comparative Physiology**: The study of functional diversity among animals; understanding how and why different species work differently
+* **Aristotle**: Father of Natural History
+* **Hippocrates**: Father of medicine
+* **Galen**: Founder of physiology; first to design experiments understanding how the body works
+* **Vesalius**: Wrote first modern anatomy textbook; demonstrated Galen’s errors; triggered modern study of anatomy/physiology
+* **Scholander**: first and most influential comparative physiologist
+* **Schmidt-Nielsen**: how animals live in extreme environments
+* **George Bartholomew**: founder of the field of ecological physiology
+* **Phenotype**: physical characteristic of an organism
+* **Genotype**: the specific genetic makeup of an organism
+* **Phenotypic plasticity**: production of different phenotypes by a single genotype as a result of environmental changes
+* **Acclimatization**: process of physiological change in response to naturally changing environmental conditions (reversible)
+* **Acclimation**: process of physiological change in response to a controlled or manipulated environmental variable (under laboratory conditions) (reversible)
+* **Polyphenism (developmental plasticity):** development under different conditions results in different adult phenotypes. E.g. Water fleas (Daphnia) (irreversible)
+* **Reaction norm:** the range of phenotypes that can be produced by a given genotype when it is exposed to different environments
+* **Adaptation:** change in the genetic structure of a population as a result of natural selection
+* **Conformers:** allow internal conditions to change with variation in external conditions
+* **Regulators:** maintain constant internal conditions regardless of the external conditions (e.g. homeostasis)
+* **Negative feedback loops:** maintain parameters within optimal physiological range (homeostasis)
+* **Homeostasis:** maintenance of a constant internal state (e.g. body T⁰ in mammals = 37⁰C); the animal maintains internal body conditions despite a changing external environment
+* **Enantiostasis:** maintenance of function when physiological variables are changing (e.g. membrane fluidity at different temperatures); in a new environment, the animal’s internal conditions change but physiological function is maintained through alternate action
 
  
 ## Lecture 2
 
-Endocrine Cell: all glands that secrete hormones
-Nervous System: Electrical signals travel in neurons; Release chemicals (neurotransmitters) into space between neuron and target cell
-Neurons: release neurotransmitters into synapse to communicate directly with target (postsynaptic) cell
-Soma: cell body
-Dendrites: receive incoming signal that results in change in membrane potential
-Axon hillock: initiate action potentials
-Axon: can be myelinated or unmyelinated; 
-Resting membrane potential: ~-70mV; Concentration gradients maintained by Na+/K+ pumps to compensate for leaks
-Ligand-gated channels: open when ligands (neurotransmitter) bind
-Presynaptic neuron: transmits signal to postsynaptic neuron (receiving neuron)
-Graded potential: Activated by ligand- gated Na+ channel, cause changes in membrane potential; “synaptic potential”, spatially restricted, conduction with decrement; spatially and temporally summated to cause or prevent AP generation
-Myelin sheath: Schwann cells wrapped around axons; insulates to increase speed/efficiency of transmission
-Nodes of Ranvier: unmyelinated, has lots of VG Na+ channels
-Saltatory conduction: APs jump from node to node along axon
-Electrical Synapse: gap junctions composed of connexin proteins connect presynaptic and postsynaptic cell membranes; found in quick, short responses
-Ionotropic Receptor: at a chemical synapse; ligand-gated channels; rapid changes in postsynaptic membrane potential
-Metabotropic Receptor: signaling cascade opens ion channels; Activates intracellular transduction pathway; Slower changes in postsynaptic membrane potential; Can also modify proteins and gene
-expression
-Simple Neural Network: Sensory information detected by receptor → Signal transmitted from sensory neuron → efferent neuron → effector organ (response)
-Ancestral Neural Network: receptor cell directly innervates an effector cell (little processing, no CNS)
-Monosynaptic Neural Network: sensory neuron synapses with efferent neuron (e.g. knee-jerk reflex)
-Polysynaptic Neural Network: at least one interneuron between sensory and efferent neuron (increases processing capacity)
-Reflex Arc: sensory neurons relay stimulus to giant interneuron at terminal ganglion; signals motor neuron
-Convergence: many afferent neurons synapse with one efferent neuron
-Divergence: one afferent neuron synapses with many efferent neurons; Allows a single signal to control many independent processes, and it is a way to amplify the signal
-Habituation: a decline in the tendency to respond to a stimulus due to repeated exposure; partial inactivation of voltage- gated Ca2+ channel in axon terminal of sensory neuron; simple learning; causes less transmitters to be released
-Sensitization: an increase in the response to a gentle stimulus after exposure to a strong stimulus; occurs via facilitating neurons
+* **Endocrine Cell: all glands that secrete hormones
+* **Nervous System: Electrical signals travel in neurons; Release chemicals (neurotransmitters) into space between neuron and target cell
+* **Neurons:** release neurotransmitters into synapse to communicate directly with target (postsynaptic) cell
+* **Soma:** cell body
+* **Dendrites:** receive incoming signal that results in change in membrane potential
+* **Axon hillock:** initiate action potentials
+* **Axon:** can be myelinated or unmyelinated; 
+* **Resting membrane potential:** ~-70mV; Concentration gradients maintained by Na+/K+ pumps to compensate for leaks
+* **Ligand-gated channels:** open when ligands (neurotransmitter) bind
+* **Presynaptic neuron:** transmits signal to postsynaptic neuron (receiving neuron)
+* **Graded potential:** Activated by ligand- gated Na+ channel, cause changes in membrane potential; “synaptic potential”, spatially restricted, conduction with decrement; spatially and temporally summated to cause or prevent AP generation
+* **Myelin sheath:** Schwann cells wrapped around axons; insulates to increase speed/efficiency of transmission
+* **Nodes of Ranvier:** unmyelinated, has lots of VG Na+ channels
+* **Saltatory conduction:** APs jump from node to node along axon
+* **Electrical Synapse:** gap junctions composed of connexin proteins connect presynaptic and postsynaptic cell membranes; found in quick, short responses
+* **Ionotropic Receptor:** at a chemical synapse; ligand-gated channels; rapid changes in postsynaptic membrane potential
+* **Metabotropic Receptor:** signaling cascade opens ion channels; Activates intracellular transduction pathway; Slower changes in postsynaptic membrane potential; Can also modify proteins and gene expression
+* **Simple Neural Network:** Sensory information detected by receptor → Signal transmitted from sensory neuron → efferent neuron → effector organ (response)
+* **Ancestral Neural Network:** receptor cell directly innervates an effector cell (little processing, no CNS)
+* **Monosynaptic Neural Network:** sensory neuron synapses with efferent neuron (e.g. knee-jerk reflex)
+* **Polysynaptic Neural Network:** at least one interneuron between sensory and efferent neuron (increases processing capacity)
+* **Reflex Arc:** sensory neurons relay stimulus to giant interneuron at terminal ganglion; signals motor neuron
+* **Convergence:** many afferent neurons synapse with one efferent neuron
+* **Divergence:** one afferent neuron synapses with many efferent neurons; Allows a single signal to control many independent processes, and it is a way to amplify the signal
+* **Habituation:** a decline in the tendency to respond to a stimulus due to repeated exposure; partial inactivation of voltage- gated Ca2+ channel in axon terminal of sensory neuron; simple learning; causes less transmitters to be released
+* **Sensitization:** an increase in the response to a gentle stimulus after exposure to a strong stimulus; occurs via facilitating neurons
 
  
 ## Lecture 3
