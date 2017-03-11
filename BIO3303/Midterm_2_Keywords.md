@@ -69,4 +69,34 @@ D. Encoding Stimulus Duration
   * Olfaction:
     * **Agnathans (lampreys):** one olfactory organ with a single nostril
     * **Elasmobranchs (sharks and rays):** the paired olfactory pits or sacs are usually situated on the ventral side of the snout
-    * **Teleosts (most bony fishes):** the paired olfactory organs are usually located on the dorsal side of the head
+    * **Teleosts (most bony fishes):** the paired olfactory organs are usually located on the *dorsal* side of the head
+* **Taste vs Smell:**
+  * *Gustation*: Chemicals are in contact with the animal; typically dissolved chemicals at relatively high concentrations
+  * *Olfaction*: Chemicals are concentrated at a distance; airborne chemicals or dissolved chemicals at low concentrations
+  * **Physiological Distinction**: 
+    * Different sense organs and receptor cells
+    * Different signal transduction mechanisms
+    * Separate integrating centres
+* **Chemical Transduction:** chemoreceptors are specialized sensory cells of neural/epithelial origin; chemical stimulus binds to membrane-bound receptor protein that regulates permeability of cell membrane through various transduction mechanisms
+  * Signal gets transmitted to **frontal cortex** for processing (that's where the gustatory and olfactory cortices are found)
+* **Taste/Gustation:** Determines food location and quality; may be the most primitive sensory modality
+  * **Taste receptors:** epithelial sensory cells
+  * **Taste bud:** Cluster of taste receptors (50-100); the apical surface is folded into microvilli which contain receptor proteins
+    * Reach to the surface of the tongue via pore
+    * have supporting cells
+    * rapid turnover (10-14 days)
+  * **Tastants:** Dissolved chemicals from food that enter through the pores on taste buds
+  * **Gustation pathway:** 
+    1. Tastant binds to receptor proteins on microvilli to initiate a receptor potential
+    2. NT is released to primary afferent neurons
+    3. Cranial nerves 7/9/10 (VII/IX/X) project it to the CNS (thalamus)
+    4. Thalamus relays the signal to the *gustatory cortex* of the brain
+  * **Number of taste buds in vertebrates:**
+    * Catfish = 180 000 (90% are extra-oral)
+    * Calf = 25 000
+    * Pig = 15 000
+    * Human = 9 000
+    * Pigeon = 37
+    * Snake = 0
+  * **5 Categories of Taste:** Sweet (saccharides and sugars), Salty (Na
+   
