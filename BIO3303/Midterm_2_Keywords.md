@@ -92,11 +92,56 @@ D. Encoding Stimulus Duration
     3. Cranial nerves 7/9/10 (VII/IX/X) project it to the CNS (thalamus)
     4. Thalamus relays the signal to the *gustatory cortex* of the brain
   * **Number of taste buds in vertebrates:**
-    * Catfish = 180 000 (90% are extra-oral)
+    * Catfish = 180 000! (90% are extra-oral)
     * Calf = 25 000
     * Pig = 15 000
     * Human = 9 000
     * Pigeon = 37
     * Snake = 0
-  * **5 Categories of Taste:** Sweet (saccharides and sugars), Salty (Na
+  * **5 Categories of Taste:** 
+    * Sweet (saccharides and sugars): hedonic (indicates nutritionally important food)
+    * Salty (Na+): hedonic
+    * Sour (HCl): Indicates presence of toxins/spoiled food
+    * Bitter (caffeine, quinine): Indicates presence of toxins/spoiled food
+    * Umami (L-glutamate, amino acids, MSG): hedonic
+  * **Taste encoding:** Recent studies support the **Labelled-Line Theory** ("one cell, one taste" coding scheme)
+  * **Salty Transduction Mechanism**
+    * Receptor protein = ENaC, where ligand = Low NaCl and sodium salts
+      1. Na+ from salty food enters through a Na+ channel
+      2. The resulting depolarization opens voltage-gated Ca2+ channels
+      3. Influx of Ca2+ causes neurotransmitter release
+    * ENaC is also permeable to to H+ (sour taste); in animals with low Na+ in saliva, the receptor detects sour (e.g.: Hamster)
+    * **Salt deficiency** triggers *aldosterone* secretion -> enhances Na+ retention by kidney and increases ENaC expression in taste receptor cells to induce craving for salty foods
+  * **Sour Transduction Mechanism**
+    * Receptor protein *in mammals* = PKD2L1, where ligand = acids i.e. Citric, tartataric acid, HCl
+    * Mechanism differs by organism
+      1. **Salamander:** taste receptor cells express K+ channels which are blocked by H+ -> decreased K+ permeability = depolarization -> VG-Ca2+ channels open -> high [Ca2+] causes NT release
+      2. **Frogs:** H+-Gated Ca2+ channels and H+ transporters
+      3. **Mammals:** PKD2L1 channel, Acid-sensing  ion channels (ASICs); involve pH-sensitive Na+ channels
+  * **Sweet Transduction Mechanism**
+    * Receptor protein = PKD2L1, where ligand = Sugars, artificial sweeteners, D-Amino acids, Glycine, and sweet proteins
+    * Broad-spectrum receptors detect many kinds of sweet substances
+      1. Chemical binds to receptor -> cause conformational change -> activate **gustducin** (a G-protein)
+      2. Adenylate cyclase activated, which activates ATP -> cAMP, which activates protein kinase, which phosphorylates K+ channels (close) and causes depolarization
+      3. Depolarization opens VG Ca2+ channels and causes NT release to afferent neuron
+    * Some substances may also activate IP3-mediated signal transduction cascade which closes K+ channels also
+  * **Bitter Transduction Mechanism**
+    * Receptor protein = T2Rs, where ligand = Cycloheximide, Denatonium, Salicin, PTC, Saccharin, Quinine/strychine/atropine
+    * Sensation: unpleasant but bearable when weak; repulsive when strong; prevents ingestion of harmful compounds
+    * ~30 genes code for bitter taste receptors
+      1. Binding causes conformational change which activates **transducin** (G-Protein)
+      2. Phospholipase C (PLC) is activated, causes PIP2 -> IP3
+      3. IP3 releases Ca2+ from intrAcellular stores; increase in [Ca2+] causes NT release
+  * **Umami Transduction Mechanism**
+    * Receptor protein = T1R1+T1R3, where ligand = L=glutamate, Nucleotide enhancers e.g. AMP, GMP, IMP
+    * "Umami taste" comes from foods w/ L-glutamate, other AAs, and MSG
+      1. Glutamate binds to glutamate receptor, conformational  change, activating a G protein
+      2. G protein activates phosphodiesterase (PDE) that degrades cAMP into AMP
+      3. Decreases in cAMP thought to trigger NT release
+    * Precise pathway not fully described yet; it appears several pathways are involved.
+* **Taste Map in Gustatory Cortex:** *in vivo* imaging look at neural response to tastant in gustatory cortex of mice; specific areas show high neural activity in response to bitter but not to sweet/sour tastants
+  * Taste qualities are topographically organized in gustatory cortex (**Gustotopic Map**); however, **area for sour taste not found**
+
+    
+    
    
