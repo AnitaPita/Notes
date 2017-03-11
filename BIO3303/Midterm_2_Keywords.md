@@ -79,6 +79,7 @@ D. Encoding Stimulus Duration
     * Separate integrating centres
 * **Chemical Transduction:** chemoreceptors are specialized sensory cells of neural/epithelial origin; chemical stimulus binds to membrane-bound receptor protein that regulates permeability of cell membrane through various transduction mechanisms
   * Signal gets transmitted to **frontal cortex** for processing (that's where the gustatory and olfactory cortices are found)
+
 * **Taste/Gustation:** Determines food location and quality; may be the most primitive sensory modality
   * **Taste receptors:** epithelial sensory cells
   * **Taste bud:** Cluster of taste receptors (50-100); the apical surface is folded into microvilli which contain receptor proteins
@@ -119,7 +120,7 @@ D. Encoding Stimulus Duration
       2. **Frogs:** H+-Gated Ca2+ channels and H+ transporters
       3. **Mammals:** PKD2L1 channel, Acid-sensing  ion channels (ASICs); involve pH-sensitive Na+ channels
   * **Sweet Transduction Mechanism**
-    * Receptor protein = PKD2L1, where ligand = Sugars, artificial sweeteners, D-Amino acids, Glycine, and sweet proteins
+    * Receptor protein = T1R2+T1R3, where ligand = Sugars, artificial sweeteners, D-Amino acids, Glycine, and sweet proteins
     * Broad-spectrum receptors detect many kinds of sweet substances
       1. Chemical binds to receptor -> cause conformational change -> activate **gustducin** (a G-protein)
       2. Adenylate cyclase activated, which activates ATP -> cAMP, which activates protein kinase, which phosphorylates K+ channels (close) and causes depolarization
@@ -139,8 +140,52 @@ D. Encoding Stimulus Duration
       2. G protein activates phosphodiesterase (PDE) that degrades cAMP into AMP
       3. Decreases in cAMP thought to trigger NT release
     * Precise pathway not fully described yet; it appears several pathways are involved.
-* **Taste Map in Gustatory Cortex:** *in vivo* imaging look at neural response to tastant in gustatory cortex of mice; specific areas show high neural activity in response to bitter but not to sweet/sour tastants
-  * Taste qualities are topographically organized in gustatory cortex (**Gustotopic Map**); however, **area for sour taste not found**
+  * **Taste Map in Gustatory Cortex:** *in vivo* imaging look at neural response to tastant in gustatory cortex of mice; specific areas show high neural activity in response to bitter but not to sweet/sour tastants
+    * Taste qualities are topographically organized in gustatory cortex (**Gustotopic Map**); however, **area for sour taste not found**
+
+* **Smell/Olfaction:** Detects huge variety of odorants; two systems in vertebrate (**Main olfactory** and **vomeronasal**)
+  * Receptors **regenerate**, but slower than in gustatory; **Detection Threshold** of chemicals lower than in taste receptors
+  * **Olfactory receptor cell**: sensory neurons (bipolar) embedded in the olfactory epithelium and project into olfactory bulb of brain
+    * Olfactory cell membrane project to the surface of epithelium and mucus layer and are covered in cilia
+    * Small structural differences in odorants can lead to significant diffs in perceived odor (e.g. rose vs sweat)
+    * **Odorant-Binding Protein:** Allow lipophilic odorants to  dissolve in aqueous mucus layer
+  * **Odour Transduction Mechanism**
+    1. Binding of odorant to a receptor causes conformational change
+    2. Activated G-Protein (Golf) moves through membrane to activate Adenylate cyclase
+    3. AC converts ATP cAMP 
+    4. cAMP opens cAMP-gated ion channels 
+    5. Ca2+ and Na+ enter the cell, causing a **generator potential**
+    5b. Ca2+ also opens Ca2+-activated Cl- channels, making Cl- exit the cell and increasing depolarization
+    6. Generator potential opens VG Na+ channels which triggers APs.
+    * Other signal transduction pathways also involved, e.g. PLC-mediated signal transduction cascade
+  * **Olfactory Receptor Diversity:** Multigene family (Olfactory-Receptor genes)
+    * GPCRs, first cloned in 1991 by Richard Axel & Linda Buck (2004 Nobel Prize)
+    * Usually comprises ~1-5% of total genes (e.g. 1000 in rats/mice, 500-750 in humans, 100 in catfish, 500 in *C. elegans*
+    * Humans detect **~10 000** odours
+  * **Combinatorial Encoding:** pattern of activation of olfactory receptor cells codes for particular odorants
+    * Most odours are composed multiple odorant molecules; each activates several odorant receptors
+    * A receptor cell can only detect 1 type of receptor, but the receptor proteins can recognize >1 odorant (with varying intensity)
+    * **Glomerulus:** collection of synapses; ~2000 in the olfactory bulb
+    * Info is transmitted from sensory neuron to glomeruli in olfactory bulb (individual glomeruli receive inputs from receptor cells expressing same receptor
+    * Secondary sensory neurons (**mitral cells**) project from glomeruli to olfactory cortex
+    * Info is already integrated before reaching the cortex
+  * While mammals have one type of receptor protein per receptor cell...
+    * **Drosophila:** Usually one novel type of receptor protein and one  ubiquitous receptor protein per receptor cell
+    * **C. elegans:** many  types receptor protein per receptor cell, BUT Odorant code can't be a simple combinatorial  system like in  mammals
+  * **Vomeronasal Organ:** Accessory olfactory structure in terrestrial vertebrates highly sensitive to pheromones
+    * **Location:** Opens to oral or nasal cavity but isolated from main airstream; air entry via pumping (flehming)
+    * DIFFERENT from olfactory epithelium: Different receptors and gene families (but still GPCR), uses PLC -> IP3 signal transduction pathway
+  * **Sensilla:** sense organ consisting of chemoreceptors and mechanoreceptors; involved in gustation, olfaction, detection of  pheromones, hearing, and touch; found in **arthropods**
+    * Odorants pass through a pore and activate olfactory receptor proteins expressed on sensory neuron dendrites
+    * Mechanism: cAMP mediated second messenger cascade
+* **Evolutionary Story:** Most birds don't have T1R2 sweet receptor, so how do hummingbirds find nectar?
+  * Answer: **Umami T1R1+T1R3 was repurposed** to function as a carbohydrate detector
+* **Chemoreception Research**
+  * Dr. Michael Johns: O2 detection in fish
+  * Dr. Steve Perry: CO2 detection in fish
+
+
+
 
     
     
