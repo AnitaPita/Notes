@@ -103,6 +103,127 @@ Hair cells are **epithelial sensory receptor cells**
 * Mechanoreceptor proteins are located on the tips of the stereocilia 
 * **TRP channels** are found here; 15% are open at rest (membrane potential = -60mv)
 * **[K+]** *around* the hair cell is high, and enters when the channel is open
+* **At rest:** membrane partially depolarized: some VG Ca2+ channels are open and cause the release of small amounts of Nt
+* **Bending** causes tip links to pull (open) or push (close) channels, leading to depolarizing or hyperpolarizing graded receptor potentials; this directly affects opening of VG Ca2+ channels and NT release
+* **Push** = stereocilia pivot away from kinocilium; Fewer APs sent
+* **Pull** = stereocilia pivot towards the kinocilium; Number of APs increases
+* APs encode *magnitude* and *direction* of mechanical stimulus (movement)
+
+**Neuromast Organ**: structure consisting of a cup (**cupula**) filled with a viscous gel and hair cells
+* SPECIES: fish and aquatic amphibians
+* Gel within the cupula shifts, causing stereocilia to bend
+* Isolated on skin or grouped
+* **Lateral line system:** neuromasts organized in pits (ampullae) or in line running length of body; it allows fish to detect water mvt (flow directions, pressure, vibrations)
+
+## Electroreception
+
+**Electroreceptors:** modified hair cells similar to neuromasts
+**Passive electrolocation:** passive detection of fields (flow, animal muscle or nerve activity)
+**Active electrolocation:** detect and produce fields (electric organ produces a field, electroreceptors detect perturbations in the field)
+
+## Vertebrate Inner Ear
+**Hair cells** are the main receptors
+**Components of the mammalian ear:**
+* Outer ear: Pinna and auditory canal
+* Middle ear: Ossicles (bones)
+* Inner ear: **Vestibular apparatus** (equilibrium) and **cochlea** (hearing)
+
+**Vestibular apparatus:** 3 semicircular canals (with swollen regions: **ampullae**); 2 sac-like swellings: **utricle**
+and **saccule** (vestibular sacs)
+
+**Otoliths:** mineralized particles suspended in gelatinous matrix above membrane called **macula**
+* Macula contains large number of hair cells (>100,000)
+* Physical movements induce: displacement of otoliths, which pulls on gelatinous mass and causes deformation of hair cells
+* **Utricle macula:** oriented horizontally; detects motion in the *horizontal* plane
+* **Saccule macula:** oriented vertically; detects motion in the vertical plane
+
+**Utricle Responses**
+* Macula oriented on horizontal plane
+* **At rest** (or during constant motion): cells partially depolarized
+* **Forward acceleration:** Stereocilia bend towards longest stereocilium, depolarization of hair cells, increasing firing rate of AP
+* **Backwards acceleration or head tilt forward:** Stereocilia bend in opposite direction, hyperpolarization and decreases firing rate of AP
+
+**Ampulla Organization**
+* Ampulla = sac at the terminal ends of the semicircular canal, performs transduction in semicircular canals
+* **Endolymph**: high [K+] fluid; flows during movements in particular directions
+* NO otoliths
+* **Cristae:** hair cells embedded in gelatinous mass called the **cupula**
+* Similar in structure and function to neuromasts:
+  * hair cells embedded in gelatinous mass called a cupula
+  * Drag on gelatinous mass caused by movement of surrounding liquid causes bending of stereocilia and graded receptor potentials
+* Ampulla responses:
+  * **At rest:** hair cells partially depolarized
+  * **With movement of head:** fluid in canals moves and causes stereocilia to pivot
+    * Endolymph pushes stereocilia towards kinocilium: Depolarization (increase in firing of APs)
+    * Endolymph pushes stereocilia away from kinocilium: Hyperpolarization (decrease in firing of APs)
+
+### Hearing in fish
+
+They have no outer ear, or canal connecting inner ear to the outside
+* Fish body have roughly same density as water so sound waves pass through
+* Otoliths	are much denser than water and the fish's body so they move more slowly in response to sound waves than does the rest of the fish
+* Difference between mvt of fish body and otoliths causes stereocilia of hair cells to move
+* **Otophysic Connections:**
+  * **Weberian ossicles:** series of bones connecting swim bladder to the inner ear (e.g. goldfish can hear up to 4kHz)
+  * **Gas ducts** ending in “bullae” extending from swim bladder to inner ear (e.g. American Shad (cupleid) can detect ultrasonic frequencies up to 180kHz)
+
+### Mammalian Inner Ear
+
+The inner ear is very sensitive to changes in freq. (vibrations/sec) and to loudness (amplitude of vibrations)
+**Cochlea:** transmits vibrations from the **Oval window** (via the stapes) to the **round window**
+* Causes waves of pressure differences in fluid of vestibular duct (perilymph)
+* Waves travel to round window and cause vibrations of **basilar membrane**
+* Hair cells embedded in basilar membrane move relative to the **stationary tectorial membrane** 
+
+**Organ of Corti**
+* Organ of Corti has thousands of hair cells (mammals have no kinocilium); Stereocilia in contact with tectorial membrane 
+* Organized into **4** rows of hair cells:
+  * 1 inner hair cell row: detection, transduction and encoding of sound features
+  * 3 outer hair cell rows: receive efferent innervation, involved in amplification
+* **Hair cell deflection:**
+  1. When the basilar membrane vibrates it changes the position of the hair cells relative to the unmoving tectorial membrane
+  2. Membrane moves up and down as pressure differences are transmitted through the scala vestibuli and scala tympani
+  3. Causes mvt of the stereocilia; causes opening and closing of stretch activated ion channels
+  4. Results in graded receptor potential
+* **Place coding:**
+  * Basilar membrane is not uniform along its length
+  * widens from oval window to helicotrema; Basal end is narrow and more stiff; Apical end is wider and more floppy
+  * different areas vibrate in response to sounds of different frequency
+  * **Lower frequency sounds:** Vibrate distal (apical) end of basilar membrane
+  * **Higher frequency sounds:** Vibrate basal end of basilar membrane
+  * Specific populations of hair cells respond to specific sound frequencies
+  * Neurons from each part of basilar membrane synapse with neurons leading to specific areas of auditory cortex (frequencies spatially mapped on basilar membrane and auditory cortex)
+  
+### Echolocation in Terrestrial Vertebrates
+* **Terrestrial echolocators:** Bats, shrews, some cave-dwelling birds
+* Function of echolocation: navigation, prey capture 
+* Most species emit ultrasonic (high freq.) cries, reflected off objects in environment, 
+  * High energy (potentially deafening) sound pulses (e.g. little brown bat cries = 120dB)
+* **Protection against cries:** inner ear is mechanically isolated from the rest of the skull
+  * Auditory sensitivity *decreased* during a cry by contraction of **tensor tympani muscles**
+
+### Processing of Mechanosensory Information
+Touch information from a variety of mechanosensitive neurons project to **somatosensory cortex**
+* Topographic arrangement like in gustotopic map; adjacent areas on body surface represented in adjacent cortical regions
+* Some areas are over-represented (sensitive, fine discrimination)
+* Vestibular information projects to **cerebellum** and **cortex**
+  * Vestibular nerve (one branch of **vestibulocochlear nerve; CN VIII**)
+  * Processes balance, orientation and movement coordination
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
