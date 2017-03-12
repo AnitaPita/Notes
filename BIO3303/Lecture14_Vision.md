@@ -65,7 +65,7 @@ The retina starts visual info processing
     * Males display UV ornamentation
     * Enhances attractiveness to females but not detected by major predators
 
-### Visual field Representations
+## Visual field Representations
 
 * **Visual field:** region of space detected by the retinas of both eyes
 * **Binocular zone:** region where visual fields of left and right eyes overlap
@@ -83,7 +83,7 @@ Each eye is divided into **nasal** and **temporal** region
   * **Fish and amphibians** with eyes on each side of head? **no binocular zone** -> 100% crossing
   * **Humans:** large binocular zone of which 40% fibers uncrossed, 60% crossed
 
-**Central Visual Processing**
+### Central Visual Processing
 * LGN sends projections to the **primary visual cortex**
 * Representation of visual field and retinal images in cortical regions
 * Areas of binocular zone represented in both halves of the brain and **Disparities are compared** (depth perception, 3D vision)
