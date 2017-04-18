@@ -114,3 +114,147 @@ securing communications and identification information over the web.
   * A client browser that wishes to communicate securely with a server iniates (over TCP/IP) a **TLS Handshake** with the server. 
     * During the Handshake process, the server and client agree on parameters that will be used to encrypt messages sent between them. 
   
+* **Mosaic:** browser which featured a user-friendly GUI; released in 1993
+  * Marc Andreessen, whose team at the National Center for Supercomputing Applications (NCSA) developed Mosaic, went on to found **Netscape**, the company that many people credit with igniting the explosive Internet economy of the late 1990s.
+* **dot com bust:** economic bust brought hard times in the early 2000s.
+  * **Web 2.0:** The resurgence that began in 2004 or so.
+
+## 1.6: Web Basics
+
+* **Web Page:**  nothing more than an HTML document  that describes to a web browser the document’s content and structure. 
+* **Hyperlinks:** Load a specific web document. Both images and text may be used as hyperlinks. 
+  * When the user clicks a hyperlink, a web server locates the requested web page and sends it to the user’s web browser.
+  * User can type the address of a web page into the browser’s address field, pressing Enter to view the specified page.
+  * Can reference other web pgs, email addresses, files and more.
+  * **mailto:emailAddress:** clicking the link loads your default e-mail program and opens a message window addressed to the specified e-mail address. 
+  * If a hyperlink references a file that the browser is incapable of displaying, the browser prepares to **download** the file, and generally prompts the user for information about how the file should be stored.
+  * **URI:** Uniform Resource Identifier. if it starts w/ "http://", it's a **URL** (Uniform resource locator). 
+  * **Parts of a URL:** A URL contains information that directs a browser to the resource that the user wishes to access. Web servers make such resources available to web clients. Popular web servers include Apache’s *HTTP Server* and Microsoft’s *Internet Information Services (IIS)*.
+   * The string **http://** indicates that the HyperText Transfer Protocol (HTTP) should be used to obtain the resource.
+   * **fully qualified hostname:** (e.g: www.deitel.com) the name of the web server computer on which the resource resides. 
+   * computer is referred to as the **host**, because it houses and maintains resources.
+     *  hostname www.deitel.com is translated into an IP (Internet Protocol) address—a numerical value that uniquely identifies the server on the Internet. 
+   *  **Internet Domain Name System (DNS) server:** maintains a database of hostnames and their corresponding IP addresses and performs the translations automatically.
+   * Remainder of the URL specifies the **resource location** and **resource name** on the web server.
+     * The location could represent an actual directory on the web server’s file system. For security reasons, however, the resource’s location is typically a **virtual directory.** The web server translates the virtual directory into a real location on the server, thus *hiding the resource’s true location.*
+  
+### Making a Request and Receiving a Response
+* Web browser sends an HTTP request to the server. 
+* The word **GET** is an HTTP method indicating that the client wishes to obtain a resource from the server. 
+* The remainder of the request provides the *path name* of the resource (e.g., an HTML5 document) and the *protocol’s name and version number* (HTTP/1.1).
+* The client’s request also contains some required and optional headers
+* **Response:**  server first sends a line of text that indicates the HTTP version, followed by a numeric code and a phrase describing the status of the transaction (e.g.: HTTP/1.1 200 OK, HTTP/1.1 404 Not found).
+* **HTTP Header:**  server sends one or more HTTP headers, which provide additional information about the data that will be sent.
+  * In this case, the server is sending an HTML5 text document, so one HTTP header for this example would be: *Content-Type: text/html*
+  * **Multipurpose Internet Mail Extensions (MIME):** type of the content that the server is transmitting to the browser. This is provided in this header. MIME is the standard or convention for specifying the content type of a message.
+    * e.g. MIME type *text/plain* indicates that the sent information is text that can be displayed directly.
+    * e.g.  MIME type *image/jpeg* indicates that the content is a JPEG image.
+  * The header or set of headers is followed by a blank line, which indicates to the client browser that the server is finished sending HTTP headers. 
+  * Finally, the server sends the contents of the requested document (e.g., the file *downloads.html*).
+  * The client-side browser then *renders* (displays) the document, which may involve additional HTTP requests to obtain associated CSS and images.
+
+### HTTP get and post request
+* **get request:** typically gets (or retrieves) information from a server, such as an HTML document, an image or search results based on a user- submitted search term.
+  * get request appends data to the URL
+  * e.g. **search** is the name of Google’s server-side form handler, q is the name of a variable in the Google’s search form and deitel is the search term. 
+  * The **?** in the preceding URL separates the **query string** from the rest of the URL in a request.
+  * A **name/value pair** is passed to the server with the variable name and its value separated by an equals sign (=). 
+  * If more than one name/value pair is submitted, each pair is separated by an **ampersand** (&).
+* **post request:**  typically posts (or sends) data to a server. Common uses of post requests are to send form data to a server. 
+  * An HTTP post request posts data to a server-side form handler that processes the data. 
+  * A get request typically limits the query string (i.e., everything to the right of the ?) to a specific number of characters (e.g., a few thousand characters), so it’s often necessary to send large amounts of information using the post method.
+  * also sometimes preferred because it hides the submitted data from the user by embedding it in an HTTP message. The form data still reaches the server and is processed in a similar fashion to a get request, but the user *does not see the exact information sent.*
+  
+### Client-side caching
+* Browsers often **cache** (save on disk) recently viewed web pages for quick reloading. 
+* If there are no changes between the version stored in the cacheand the current version on the web->speeds up your browsing experience.
+* HTTP response can indicate (in one of its header fields) the length of *time* for which the content remains “fresh”.
+  * If this amount of time has not been reached, the browser can avoid another request to the server and simply load the document from the cache. 
+  * There’s also the “not modified” HTTP response, indicating that the file content has not changed since it was last requested. 
+
+## 1.7: Multitier Application Architecture
+Web-based applications are often multitier applications (sometimes referred to as n-tier applications) that divide functionality into
+separate tiers (i.e., logical groupings of functionality). 
+* **Bottom tier:**  (also called the data tier or the *information tier*) maintains the application’s data. It typically stores data in a relational database management system (RDBMS).
+* **Middle tier:**  implements business logic, controller logic and presentation logic to control interactions between the application’s clients and its data.  acts as an intermediary between data in the information tier and the application’s clients. 
+  * **Middle-tier controller logic:** processes client requests (such as requests to view a product catalog) and retrieves data from the database. 
+  * **Middle tier presentation logic:**  processes data from the information tier and presents the content to the client.
+  * **Middle tier Business logic:** enforces business rules and ensures that data is reliable before the application updates a database or presents data to users. Business rules dictate how clients access data and how applications process data.
+* **Top tier:** (also called user interface tier or *client tier*) is the application’s UI, which gathers input and displays output.
+  * Users interact directly with the application through the user interface, which is typically a web browser or a mobile device. 
+  * In response to *user actions* (e.g., clicking a hyperlink), the top tier interacts with the middle tier to make requests and to retrieve data from the information tier. The top tier then displays the data retrieved for the user. 
+  
+## 1.8: Client-Side Scripting versus Server-Side Scripting
+* **Client-side scripting:** JavaScript can be used to validate user input, to interact with the browser, to enhance web pages, and to add client/server communication between a browser and a web server.
+  * Client-side scripting does have some limitations, such as **browser dependency**: the browser or **scripting host** must support the scripting language and capabilities.
+  * Client-side scripts are restricted from arbitrarily accessing the local hardware and file system for security reasons. 
+  * Client-side scripts can be viewed by the client by using the browser’s source-viewing capability, so sensitive information, such as passwords or other personally identifiable data, should not be on the client. 
+  * All client-side data validation should be mirrored on the server. Also, placing certain operations in JavaScript on the client can open web applications to security issues.
+* **Server-side scripting:**  generate custom responses for clients.
+  * e.g a server queries the database, dynamically generates an HTML document containing the flight list, and sends the document to the client. This allows clients to obtain the most current flight information from the database by connecting to an airline’s web server.
+  * have a wider range of **programmatic capabilities** than their client-side equivalents. 
+  *  have access to server-side software that extends server functionalities
+     * Microsoft web servers use ISAPI (Internet Server Application Program Interface) extensions.
+     * Apache HTTP Servers use modules. 
+
+## 1.9: World Wide Web Consortium (W3C)
+* October 1994: Tim Berners-Lee founded the organization, devoted to developing nonproprietary, interoperable technologies for the World Wide Web.
+* Primary goal is to make the web universally accessible, regardless of disability, language or culture. 
+* Is also a *standards organization*.
+* **Recommendations:** Web technologies standardized by the W3C
+* Current and forthcoming W3C Recommendations include HTML5, CSS3, and XML.
+
+## 1.10: Web 2.0, Going Social
+* 2003: noticeable shift in how people and businesses were using the web and developing web-based applications. 
+* Web 2.0 was coined by Dale Dougherty of O’Reilly Media in 2003 to describe this trend.
+* Generally, Web 2.0 companies use the web as a platform to create collaborative, community-based web sites (e.g., social networking sites, blogs, wikis).
+* **Web 1.0** (the state of the web through the 1990s and early 2000s) was focused on a relatively small number of companies and advertisers producing content for users to access
+  * Also called the "Brochure Web".
+  * Analogy: One way to look at Web 1.0 is as a lecture, a small number of professors informing a large audience of students.
+* **Web 2.0** involves the users
+  * they create content and help organize it, share it, remix it, critique it, update it, etc.
+  * Analogy: a conversation, with everyone having the opportunity to speak and share views.
+* **Architecture of Participation:**  design that encourages user interaction and community contributions.
+  * **collective intelligence:** the concept that a large diverse group of people will create smart ideas
+  * **Rich Internet Applications (RIAs):**  being developed using technologies (such as Ajax) that have the look and feel of desktop software, hence enhancing a user’s overall experience
+  
+* **Search Engines and Social Media:** The way we find the information on these sites is also changing—people are tagging (i.e., labeling) web content by subject or keyword in a way that helps anyone locate information more effectively.
+* **Semantic Web:** In the future, computers will learn to understand the meaning of the data on the web.
+* **Google:** returns extremely accurate search results. It has become the most widely used search engine and one of the most popular websites in the world.
+  * In 1996, Stanford computer science Ph.D. candidates Larry Page and Sergey Brin began collaborating on a new search engine.
+  * In 1997, they chose the name Google—a play on the mathematical term googol, which is a number that is equal to 1 followed by 100
+  zeros (or 10100), a staggeringly large number.
+
+* Web services, inexpensive computers, abundant highspeed Internet access, open source software and many other elements have inspired new, exciting, **lightweight business models** that people can launch with only a small investment.
+* Some types of websites with rich and robust functionality that might have required millions of dollars to build in the 1990s can now be built for nominal sums.
+
+* **Ajax:** A premier Web 2.0 software. Ajax helps Internet-based applications perform like desktop applications.
+  *  such applications suffer transmission delays as data is shuttled back and forth between your computer and servers on the Internet, so Ajax is super useful.
+
+## 1.11: Data Hierarchy
+Data items processed by computers form a data hierarchy that becomes larger and more complex in structure as we progress from bits to characters to fields.
+* **Bits:** The smallest data item in a computer can assume the value 0 or the value 1.
+* **Characters:**  Digits, letters and special symbols. 
+* **Fields:** composed of characters or bytes
+* **Records:** Several related fields (e.g. a payroll system)
+* **Files:** groups of related records
+* **Database:**  electronic collection of data that’s organized for easy access and manipulation.
+
+## 1.12: Operating Systems
+* **OS:** software systems that make using computers more convenient for users, application developers and system administrators. 
+  *  provide services that allow each application to execute safely, efficiently and concurrently (i.e., in parallel) with other applications.
+* **Kernel:** software that contains the core components of the operating system
+* **Popular desktop OSs:** Linux (open-source), Windows (proprietary), and Mac OS
+* **Popular mobile OSs:** Android, iOS, BlackBerry OS, Windows Phone.
+
+## 1.13: Types of Programming Languages
+* **Machine Language:** Defined by its hardware design. Generally consist of numbers (ultimately reduced to 1s and 0s).
+* **Assembly Language:** English language abbreviations to represent elementary operations.
+* **Assemblers:** Translator programs that convert assembly language to machine language.
+* **High-level languages:**  single statements could be written to accomplish substantial tasks.
+* **Compilers:** convert high-level language programs into machine language
+* **Interpreter Programs:**  execute high-level language programs directly, although more slowly than compiled programs
+
+## 1.14: Object Technology
+
+## 1.15: Keeping up with IT
