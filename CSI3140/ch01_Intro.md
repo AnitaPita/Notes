@@ -256,5 +256,11 @@ Data items processed by computers form a data hierarchy that becomes larger and 
 * **Interpreter Programs:**  execute high-level language programs directly, although more slowly than compiled programs
 
 ## 1.14: Object Technology
+* **Objects:** essentially reusable software components. 
+  * Almost any noun can be reasonably represented as a software object in terms of:
+    * **Attributes** (e.g., name, color and size)
+    * **Behaviors** (e.g., calculating, moving and communicating). 
+### TODO
 
 ## 1.15: Keeping up with IT
+## TODO
