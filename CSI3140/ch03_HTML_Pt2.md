@@ -2,8 +2,6 @@
 
 ## 3.1: New HTML5 Form Input Types
 
-## 3.1.1: Color
-
 **`color`:** input type enables the user to enter a color. 
 * Most browsers render input type as a textfield in which you can type a **hexadecimal code** or a **color name**.
   * Future:  when you click a color input, browsers will likely display a **color picker** (already being done in chrome)
