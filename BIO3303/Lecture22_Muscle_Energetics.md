@@ -153,14 +153,43 @@ High intensity exercise can only be maintained for short periods of time.
 3) lactate removal: 
    1) glycogen synthesis in muscle
    2) to liver for gluconeogenesis (Cori cycle)
-   3) to heart or RM to be oxidized
+   3) to heart or red muscles to be oxidized
 
 **EPOC:** elevated postexercise oxygen consumption
 * Energy for the above processes come from **oxidative phosphorylation**, so there is an *oxygen debt* which varies with intensity of exercise.
 
 ### Endurance Exercise
+Low-intensity exercise can be maintained for long periods of time.
+* **Slow-twitch (type I) muscle fibers** are predominantly used (mitochondria rich)
+* ATP production comes from **oxidative phosphorylation**
+  * Limited by rate of oxygen delivery to mitochondria:
+    1) Many capillaries
+    2) Small muscle fiber diameter
+    3) High [myoglobin]
+    4) Strong heart (↑ stroke volume)
+  * Limited by rate of delivery and availability of fuels (fuel used depends on exercise intensity)
+    * rate of ATP production from oxidized CHO > oxidized Fat
+    * BUT quantitatively, stores of Fat > CHO
 
+### Muscle Fatigue
+**Muscle fatigue** = ↓ muscle tension with repeated stimulation
+* **Short-duration, high-intensity exercise:**
+  * Rapid onset and recovery
+  * Results in elevated [H+] and [Pi], decreased Ca2+ release from SR
+* **Low-intensity, long-duration exercise:**
+  * Slow onset and recovery
+  * Results in depletion of muscle glycogen, changes in activity of muscle proteins
+* In both cases, associated with but not caused by depletion of muscle [ATP] -> protective mechanism
+  * **Central command fatigue:** Lack of appropriate excitatory signals from cerebral cortex
 
+## Case Study of Sandpipers: Long-distance migrants and Endurance Athletes
 
-
-   
+* The semi-palmated sandpiper spends summers in Arctic and winters in S.America. 
+* They make a migratory flight which includes a 2-week stopover at Bay of Fundy prior to a 3-day, ~4500km trans-oceanic journey.
+  * Here, birds re-fuel on mudshrimp *Corophium volutator* – very high in **Poly Unsaturated Fatty Acids** (PUFAs)
+* PUFA-rich diet results in:
+  1) Increased MonoUFA stores (result = higher fuel efficiency)
+  2) Increased PUFA in membranes; associated with...
+     1) improved **fatty acid mobilization**
+     2) ↑ expression of enzymes for **aerobic metabolism**
+     3) ↑ **mitochondrial density**
