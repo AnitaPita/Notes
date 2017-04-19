@@ -128,8 +128,8 @@ securing communications and identification information over the web.
   * Can reference other web pgs, email addresses, files and more.
   * **mailto:emailAddress:** clicking the link loads your default e-mail program and opens a message window addressed to the specified e-mail address. 
   * If a hyperlink references a file that the browser is incapable of displaying, the browser prepares to **download** the file, and generally prompts the user for information about how the file should be stored.
-  * **URI:** Uniform Resource Identifier. if it starts w/ "http://", it's a **URL** (Uniform resource locator). 
-  * **Parts of a URL:** A URL contains information that directs a browser to the resource that the user wishes to access. Web servers make such resources available to web clients. Popular web servers include Apache’s *HTTP Server* and Microsoft’s *Internet Information Services (IIS)*.
+* **URI:** Uniform Resource Identifier. if it starts w/ "http://", it's a **URL** (Uniform resource locator). 
+* **Parts of a URL:** A URL contains information that directs a browser to the resource that the user wishes to access. Web servers make such resources available to web clients. Popular web servers include Apache’s *HTTP Server* and Microsoft’s *Internet Information Services (IIS)*.
    * The string **http://** indicates that the HyperText Transfer Protocol (HTTP) should be used to obtain the resource.
    * **fully qualified hostname:** (e.g: www.deitel.com) the name of the web server computer on which the resource resides. 
    * computer is referred to as the **host**, because it houses and maintains resources.
