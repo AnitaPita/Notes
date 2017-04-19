@@ -188,7 +188,7 @@ Low-intensity exercise can be maintained for long periods of time.
 * They make a migratory flight which includes a 2-week stopover at Bay of Fundy prior to a 3-day, ~4500km trans-oceanic journey.
   * Here, birds re-fuel on mudshrimp *Corophium volutator* – very high in **Poly Unsaturated Fatty Acids** (PUFAs)
 * PUFA-rich diet results in:
-  1) Increased MonoUFA stores (result = higher fuel efficiency)
+  1) Increased MonoUFA stores (result = **↑ fuel efficiency**)
   2) Increased PUFA in membranes; associated with...
      1) improved **fatty acid mobilization**
      2) ↑ expression of enzymes for **aerobic metabolism**
