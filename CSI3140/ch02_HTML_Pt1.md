@@ -79,12 +79,89 @@ You edit HTML5 docs in **editors** (e.g. Notepad, TextEdit, vi, emacs) and save 
 * **Nested Lists:** Express hierarchy.
 
 ## 2.10: Tables
-**`table` element**
+**`table` element:** organize data into rows and columns.
+**`caption` element:** specifies a table's title.
+**`summary` attribute:** accessibility feature for visually impaired individuals.
+**`thead`:** contains header info such as the column names.
+**`tbody`:** Primary table data
+**`tfoot`:** Calculation results, footnotes. Written above or below the body code but always displays at the bottom of the page.
+**`tr`:** Defines individual tables rows.
+**`th`:** Defines a column header in the table head or table foot section. Most browsers **center** and **bold** the text in this element.
+**`td`:** Contains table data.
+**`rowspan` and `colspan`:** merges data cells. Its *values* specify the number of rows/columns occupied by the cell.
+  * Can be placed inside any `td` or `th`element. 
+  * `br` is rendered as a line break. It is a **void element** but is also considered *legacy*.
+
+<table border = "1">
+<caption><strong>Table of Fruits (1st column) and
+Their Prices (2nd column)</strong></caption>
+<thead>
+<tr> <!-- <tr> inserts a table row -->
+<th>Fruit</th> <!-- insert a heading cell -->
+<th>Price</th>
+</tr>
+</thead>
+
+<tfoot>
+<tr>
+<th>Total</th>
+<th>$3.75</th>
+</tr>
+</tfoot>
+
+<tbody>
+<tr>
+<td>Apple</td>
+<td>$0.25</td>
+</tr>
+<tr>
+46 <td>Orange</td>
+47 <td>$0.50</td>
+48 </tr>
+49 <tr>
+50 <td>Banana</td>
+51 <td>$1.00</td>
+52 </tr>
+53 <tr>
+54 <td>Pineapple</td>
+55 <td>$2.00</td>
+56 </tr>
+</tbody>
+</table>
 
 ## 2.11: Forms
-
+* **Forms** collect data from users.
+* **`method`:** specifies how the form’s data is sent to the web server. 
+  * `post` sends form data in the body of the HTTP message, not as part of the URL.
+  * `get` appends the form data directly to the end of the URL of the form-processing script; visible in browser’s Address field.
+* **`action`:** specifies the form-processing script (on the web server) to which the form data will be sent.
+* **`input` elements:**  specify data to be sent to the form-processing script that processes the form (aka `form handler`).
+  * **`type` attribute:** determines input type
+  * **Hidden inputs:** nonvisual components. Store any data that you specify such as e-mail addresses.
+  * **`text input`:** inserts a text field into the form, which allows the user to input data.
+  * **`label`:**  provides users with information about the input element’s purpose.
+  * **`size`:**  specifies the number of characters visible in the text field.
+  * **`maxlength`:** limits the number of characters input into a text field.
+  * **`submit`:** When the submit button is pressed, the form’s data is sent to the location specified in the form’s action attribute.
+    * **`value`:**  sets the text displayed on the button.
+  * **`reset`:**  reset all form elements to their default values.
+* **`textarea`:**  inserts a multiline text area into the form. 
+  * **`rows` and `cols`:** specify number of rows and columns (i.e characters per line).
+  * Can include default text using `value`.
+* **`password`:** inserts a password box into a form. **Masks** information input with another character, usually asterisks.
+* **`checkbox`:** Select an option. Checkboxes that have the same `name` but different `value` attributes belong to the same group.
+  * If two `checkbox` elements have the same `value` then the web server scripts can't distinguish them.
+* **`radio` buttons:** Only one radio button in a group can be selected at a time.
+  * If you don't set the names of each radio button then all buttons can be checked at the same time: *logic error*.
+* **`select`:** provides a drop-down list of items. `name` defines the list, and `option` elements are items in the list.
+  
 ## 2.12: Internal Linking
+`a` tag can be used  to link to another section of the same document by specifying the element’s `id` as the link’s `href`.
+* E.g. `<a href = #bugs>Go to favourite bugs</a>`
 
 ## 2.13: Meta elements
-
-## 2.14: Web Resources
+* **`name`:** identifies the type of the `meta` element
+* **`content`attribute:** 
+  * `keywords meta` element: provides search engines with a list of words that describe a page, which are compared with words in search requests.
+  * `description meta` element, provides a short description of a site in sentence form, used by search engines to catalog your site (this text is sometimes displayed as part of the search result).
+* Must be placed in the `head` section of HTML5 doc, otherwise they won't be read by search engines.
