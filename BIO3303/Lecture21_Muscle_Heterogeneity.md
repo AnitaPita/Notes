@@ -98,7 +98,7 @@ Contractile properties of muscles are determined by **molecular properties of ce
 * Phosphorylation: Glycolytic
 * High levels of: glycogen stores
 * Fiber diameter: Large
-* Mitochondria count: High
+* Mitochondria count: Low
 * Force production: High
 * Fatigue? Yes
 
@@ -106,7 +106,7 @@ Contractile properties of muscles are determined by **molecular properties of ce
 * Phosphorylation: Oxidative
 * High levels of: myoglobin (Oxygen)
 * Fiber diameter: Small  
-* Mitochondria count: Low
+* Mitochondria count: High
 * Force production: Low
 * Fatigue? Resistant
 
