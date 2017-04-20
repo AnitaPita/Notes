@@ -170,7 +170,7 @@ They have no outer ear, or canal connecting inner ear to the outside
 ### Mammalian Inner Ear
 
 The inner ear is very sensitive to changes in freq. (vibrations/sec) and to loudness (amplitude of vibrations)
-**Cochlea:** transmits vibrations from the **Oval window** (via the stapes) to the **round window**
+* **Cochlea:** transmits vibrations from the **Oval window** (via the stapes) to the **round window**
 * Causes waves of pressure differences in fluid of vestibular duct (perilymph)
 * Waves travel to round window and cause vibrations of **basilar membrane**
 * Hair cells embedded in basilar membrane move relative to the **stationary tectorial membrane** 
