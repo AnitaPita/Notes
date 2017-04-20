@@ -107,6 +107,7 @@ Metabolic cost of locomotion varies with many things.
 **Metabolic Cost of Endothermy:** 4-10 fold difference.
 * Metabolic rate becomes a function of environmental temperature (endotherms vs ectoderms)
 
+### Finally...
 **Many other factors** affect metabolic rate, such as:
 * Age
 * Reproductive Status
