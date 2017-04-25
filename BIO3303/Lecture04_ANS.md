@@ -129,7 +129,7 @@ To be a neurotransmitter:
 * **Antagonist:** a substance that binds to a receptor but does not stimulate a signaling event. 
   * *Interferes* with the binding of the natural ligand.
 
-**Differences between α1, α2, β1, and β2 adrenergic receptors
+**Differences between α1, α2, β1, and β2 adrenergic receptors**
 
 <table>
 <thead>
