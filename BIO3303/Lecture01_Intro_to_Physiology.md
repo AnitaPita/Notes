@@ -88,6 +88,7 @@ Regulations typically occurs through **negative and Positive feedback loops**
 
 * **Homeostasis:** maintenance of a constant internal state (e.g. body T⁰ in mammals = 37⁰C)
 * **Enantiostasis:** maintenance of function when physiological variables are changing (E.g. Maintaining membrane fluidity at different T⁰)
+  * in a new environment, the animal’s internal conditions change but physiological function is **maintained** through alternate action
 
 ## Summary: Physiology is...
 
