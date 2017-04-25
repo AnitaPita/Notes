@@ -128,8 +128,3 @@ Usually under conscious control.
 2) Binds nicotinic ACh receptor (nAChR) on skeletal muscle
    * nAChRs = ligand-gated ion channels; ions (mostly Na+) depolarize the muscle
 3) Induces muscle contraction
-
-**Autonomic Branch of PNS:** Not usually under conscious control (involuntary)
-* **Effectors:** Cardiac Muscles, smooth muscles, Glands, and organs
-* Consists of sympathetic and parasympathetic systems that tightly regulate physiological systems (see next lecture)
-
