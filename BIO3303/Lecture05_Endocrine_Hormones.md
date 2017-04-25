@@ -4,7 +4,7 @@
 
 * **Endocrine system:** Release chemical messengers (hormones) into circulatory system
   * Communication via chemical signal
-* **Nervous system: **Release chemicals (neurotransmitters) into synapses
+* **Nervous system:** Release chemicals (neurotransmitters) into synapses
   * Communication via chemical and electrical signals
 * **Similarities?** Chemical messengers, receptors, physiological responses
 * **Differences?** Transmission speed, infrastructure, duration of response (See lecture 2).
@@ -174,5 +174,6 @@ CHH synthesized and secreted from neurons clustered into x-organ/sinus gland wit
 4) Target cells release glucose into the blood.
 
 ## Concerted Actions affect Physiological Parameters
-**Additive effects: ** E.g glucagon + Epinephrine; effect is equal to the sum of effects of each hormone alone
-**Synergistic effects:** E.g glucagon + E + cortisol; effect greater than the sum of effects of each hormone alone
+**Additive effects:** E.g glucagon + Epinephrine; effect is **equal** to the sum of effects of each hormone alone
+
+**Synergistic effects:** E.g glucagon + E + cortisol; effect **greater** than the sum of effects of each hormone alone
