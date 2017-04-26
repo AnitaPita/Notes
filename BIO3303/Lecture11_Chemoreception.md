@@ -128,6 +128,7 @@
 * **Sensilla:** sense organ consisting of chemoreceptors and mechanoreceptors; involved in gustation, olfaction, detection of  pheromones, hearing, and touch; found in **arthropods**
   * Odorants pass through a pore and activate olfactory receptor proteins expressed on sensory neuron dendrites
   * Mechanism: cAMP mediated second messenger cascade
+
 **Evolutionary Story:** Most birds don't have T1R2 sweet receptor, so how do hummingbirds find nectar?
 * Answer: **Umami T1R1+T1R3 was repurposed** to function as a carbohydrate detector
 
