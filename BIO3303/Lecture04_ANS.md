@@ -165,8 +165,8 @@ To be a neurotransmitter:
   </tr>
   <tr>
   <td><b>β2</b></td>
-  <td>Blood vessels</td>
-  <td>Vasoconstriction (smooth muscle contraction)</td>
+  <td>Brochioles</td>
+  <td>Bronchodilation (smooth muscle relaxes)</td>
   <td>PLC Pathway</td>
   <td>E > NE</td>
   </tr>
