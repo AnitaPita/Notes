@@ -32,12 +32,12 @@
 
 **PNS:** nerves, sensors, effectors
 
-**White Matter:** myelinated axons
-**Grey Matter:** cell bodies and dendrites
-**Dorsal Horns/Roots:** afferent (cell bodies outside)
-**Ventral Horns/Roots:** efferent (cell bodies inside)
-* Horns are within the spine; roots come out of the spine.
-* Ascending tracts = sensory, descending tracts = motor.
+* **White Matter:** myelinated axons
+* **Grey Matter:** cell bodies and dendrites
+* **Dorsal Horns/Roots:** afferent (cell bodies outside)
+* **Ventral Horns/Roots:** efferent (cell bodies inside)
+  * Horns are within the spine; roots come out of the spine.
+  * Ascending tracts = sensory, descending tracts = motor.
 
 **Meninges:** three protectice layers on the CNS.
 
