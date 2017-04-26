@@ -167,7 +167,7 @@ To be a neurotransmitter:
   <td><b>β2</b></td>
   <td>Brochioles</td>
   <td>Bronchodilation (smooth muscle relaxes)</td>
-  <td>PLC Pathway</td>
+  <td>cAMP Pathway</td>
   <td>E > NE</td>
   </tr>
 </tbody>
